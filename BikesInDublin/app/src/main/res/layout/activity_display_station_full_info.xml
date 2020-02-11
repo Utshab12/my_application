@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NAME-->
+<!--STUDENT NUMBER-->
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeViewForStation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForStationName"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Name"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForStationAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Address"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewForStationName"
+        />
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForNumberOfBikes"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Number of Bikes"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewForStationAddress"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForBanking"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Banking"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/textViewForNumberOfBikes"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForStatus"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Status"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewForBanking"
+        />
+
+    <TextView
+        android:padding="5sp"
+        android:id="@+id/textViewForBonus"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="bonus"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewForStatus"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+
+
+
+
+</RelativeLayout>

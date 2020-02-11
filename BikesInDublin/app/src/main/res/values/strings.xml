@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BikesInDublin</string>
+    <string name="station_name">Station Name</string>
+    <string name="show_all_stations">Show All Stations</string>
+</resources>
